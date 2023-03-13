@@ -282,15 +282,15 @@ main.row {
 
 	
 
-.col-6 .title {
+.col-12 .title {
 	color: crimson;
 }
-.col-6 .contents {
+.col-12 .contents {
 	padding: 0px 30px;
 	border-left:2px solid #bababa;
 	display: inline-block;
 }
-.col-6 .contents .box{
+.col-12 .contents .box{
 	position: relative;
 	padding: 20px;
 	border: 1px solid #eaeaea;
@@ -299,11 +299,11 @@ main.row {
 	transition: all 0.4s;
 	margin-bottom: 20px;
 }
-.col-6 .contents .box:hover{
+.col-12 .contents .box:hover{
 	box-shadow: 0px 3px 12px 0px #ccc;
 	border: 1px solid transparent;
 }
-.col-6 .contents .box::before {
+.col-12 .contents .box::before {
 	content: '';
 	position:absolute;
 	width: 16px;
